@@ -1,0 +1,245 @@
+body {
+  margin: 1.5em 6em;
+  font-family: sans-serif;
+  background-color: #D9E8EF;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.hero-img {
+  position: absolute;
+  margin-top: -3em;
+  right: 0;
+  background: url("../images/building.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+}
+
+section.hero {
+  height: auto;
+  width: 40%;
+  margin-top: 11%;
+  margin-bottom: 10em;
+  margin-left: 1.6em;
+  padding-bottom: 1.3em;
+}
+
+section.hero h1 {
+  font-size: 72px;
+  padding: 0;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 98px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section.hero p.subhead {
+  padding-top: 0.5em;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -2em;
+  margin-right: -5em;
+}
+
+section.hero p.subhead-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0.5em;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+section.hero p.subhead-logo img {
+  width: 25%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo {
+  margin-left: -2.4%;
+  margin-top: -0.7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  font-weight: bolder;
+}
+
+header nav {
+  position: unset;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+}
+
+header nav ul a {
+  color: black;
+  padding: 0.5em 1.0em;
+  padding-right: 2em;
+  font-size: 1rem;
+  display: block;
+  font-weight: bold;
+}
+
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
+section.info {
+  background-color: white;
+  margin-top: -6em;
+  margin-left: -6em;
+  margin-right: -6em;
+  padding: 74px 165px;
+}
+
+section.info .feature {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 24.5%;
+  margin-bottom: 48px;
+}
+
+section.info .feature .short {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 54px;
+  font-family: 'Arial';
+  letter-spacing: -0.05em;
+  margin-right: -5em;
+  margin-top: -0.5em;
+}
+
+section.info .feature .long {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+section.info img.design-img {
+  width: 100%;
+  height: 21em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section.review {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 89px;
+}
+
+section.review .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 192px;
+  margin-bottom: 64px;
+  margin-left: 65px;
+}
+
+section.review .user .user-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+section.review .user .user-name {
+  line-height: 0.3em;
+  margin-left: 0.6em;
+  color: #18191F;
+}
+
+section.review .user .user-name h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+section.review .user .user-name p {
+  color: #474A57;
+  font-size: 14px;
+}
+
+section.review .user-review {
+  margin-top: 88px;
+  margin-right: 165px;
+  margin-bottom: 64px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191F;
+}
+
+section.review .user-review span {
+  color: #2EC5CE;
+  font-size: 72px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+section.footer {
+  background-color: #0B0D17;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  margin-left: -6em;
+  margin-right: -6em;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 166px;
+}
+
+section.footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  color: white;
+}
+
+section.footer .logo img {
+  width: 45px;
+}
+
+section.footer .middle {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+/*# sourceMappingURL=main.css.map */
