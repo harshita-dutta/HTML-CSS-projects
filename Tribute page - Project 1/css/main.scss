@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: #bac0bd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+  
+.hero {
+    background: white;
+    display: block;
+    padding: 3em 4em 0em 4em;
+    text-align: center;
+    color: #457566;
+  
+  
+    #title {
+        margin-bottom: 0;
+        font-size: 3em;
+    }
+  
+
+    #sub-heading {
+        margin-top: -0.2em;
+        padding-bottom: 3em;
+        font-style: italic;
+        font-size: 1.2em;
+    }
+
+
+}
+
+#img-div {
+    margin-top: -1.55em;
+    padding-top: 2em;
+    display: block;
+    text-align: center;
+    background-color: #536e65;
+    margin-left: 0;
+    margin-right: 0;
+
+
+
+        #image {
+            display: block;
+            width: auto;
+            border-radius: 50%;
+            max-width: 60%;
+            margin: auto;
+        }
+        
+        #img-caption {
+            margin-left: auto;
+            margin-top: 0.3em;
+            margin-right: auto;
+            font-size: 1.2em;
+            margin-bottom: 3em;
+            font-family: 'Trebuchet MS',  sans-serif;
+            padding-bottom: 0.7em;
+            color: white;
+
+        }
+        
+}
+
+
+
+#tribute-info{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.45em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#more-info-link{
+    font-size: 1.4em;
+    font-family:'Trebuchet MS', sans-serif;
+    background-color:  #457566;
+    color: white;
+    padding-bottom: 0.05em;
+    text-align: center;
+    padding-top: 0.05em;
+
+    a{
+        color:#bac0bd;
+
+        &:hover{
+            color: black;
+            text-decoration: solid;
+        }
+    }
+}
+
+blockquote {
+    #quotewords {
+    font-size: 1.7em !important;
+    font-family: monospace !important;
+    font-style: oblique ;
+    letter-spacing: -0.05em;
+}
+
+    #source{
+        font-weight: bold !important;
+        font-size: 1.3em !important;
+        font-family: 'Franklin Gothic Medium', sans-serif !important;
+    }
+    
+}
